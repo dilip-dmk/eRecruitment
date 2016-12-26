@@ -1,0 +1,40 @@
+Aug 24, 2012 6:58:02 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+Aug 24, 2012 6:58:02 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+Aug 24, 2012 6:58:03 PM org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Aug 24, 2012 6:58:03 PM org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+Aug 24, 2012 6:58:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1138 ms
+Aug 24, 2012 6:58:03 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Aug 24, 2012 6:58:03 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Aug 24, 2012 6:58:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Aug 24, 2012 6:58:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Aug 24, 2012 6:58:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+Aug 24, 2012 6:58:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+Aug 24, 2012 6:58:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Aug 24, 2012 6:58:04 PM org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Aug 24, 2012 6:58:04 PM org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+Aug 24, 2012 6:58:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1190 ms
+Aug 24, 2012 6:58:11 PM org.apache.coyote.http11.Http11AprProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Aug 24, 2012 6:58:11 PM org.apache.coyote.ajp.AjpAprProtocol pause
+INFO: Pausing Coyote AJP/1.3 on ajp-8009
+Aug 24, 2012 6:58:12 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Aug 24, 2012 6:58:12 PM org.apache.coyote.http11.Http11AprProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Aug 24, 2012 6:58:12 PM org.apache.coyote.ajp.AjpAprProtocol destroy
+INFO: Stopping Coyote AJP/1.3 on ajp-8009

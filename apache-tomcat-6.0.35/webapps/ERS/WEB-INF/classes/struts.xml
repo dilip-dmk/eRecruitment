@@ -1,0 +1,63 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache. org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+	    
+	    <action name="aboutERS" class="aboutERSActionBean">
+  			<result name="success">/aboutERS.jsp</result>
+ 		</action>
+ 		
+	    <action name="aboutDeveloper" class="aboutDeveloperActionBean">
+  			<result name="success">/aboutDeveloper.jsp</result>
+ 		</action>
+ 		
+	    <action name="login" class="loginActionBean" method="login">
+  			<result name="login">/login.jsp</result>
+  			<result name="home">/home.jsp</result>
+ 		</action>
+ 		
+	    <action name="logout" class="logoutActionBean" method="logout">
+  			<result name="logout">/logout.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 		
+	    <action name="registerNow" class="registerNowActionBean" method="registration">
+  			<result name="input">/registerNow.jsp</result>
+  			<result name="success">/registerNowResult.jsp</result>
+ 		</action>
+ 		
+	    <action name="contactUs" class="contactUsActionBean">
+  			<result name="success">/contactUs.jsp</result>
+ 		</action>
+ 		
+	    <action name="profile" class="profileActionBean">
+  			<result name="success">/profile.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 		
+	    <action name="createProfile" class="profileActionBean" method="create">
+  			<result name="input">/createProfile.jsp</result>
+  			<result name="success">/createProfileResult.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 		
+	    <action name="editProfile" class="profileActionBean" method="edit">
+  			<result name="input">/editProfile.jsp</result>
+  			<result name="success">/editProfileResult.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 		
+	    <action name="searchProfile" class="profileActionBean" method="search">
+  			<result name="input">/searchProfile.jsp</result>
+  			<result name="success">/searchProfileResult.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 		
+	    <action name="allProfile" class="profileActionBean" method="profileList">
+  			<result name="list">/allProfile.jsp</result>
+  			<result name="error">/login.jsp</result>
+ 		</action>
+ 
+ 	</package>
+
+</struts>

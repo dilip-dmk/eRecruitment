@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="pojo.UserPojo" table="USERPOJO">
+        <id name="USER_ID" type="java.lang.Integer">
+            <column name="USER_ID" />
+            <generator class="increment" />
+        </id>
+        <property name="CATEGORY" type="java.lang.String">
+            <column name="CATEGORY" />
+        </property>
+        <property name="NAME" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="ADDRESS" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="CITY" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+        <property name="STATE" type="java.lang.String">
+            <column name="STATE" />
+        </property>
+        <property name="EMAIL" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="PASSWORD" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="MOBILE" type="java.lang.String">
+            <column name="MOBILE" />
+        </property>
+        <property name="IS_ACTIVE" type="java.lang.String">
+            <column name="IS_ACTIVE" />
+        </property>
+        <property name="CREATED_BY" type="java.lang.String">
+            <column name="CREATED_BY" />
+        </property>
+        <property name="CREATED_ON" type="java.sql.Timestamp">
+            <column name="CREATED_ON" />
+        </property>
+    </class>
+</hibernate-mapping>
